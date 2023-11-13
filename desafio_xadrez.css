@@ -1,0 +1,64 @@
+/* css */
+
+.tab {
+    border-spacing: 0;
+    font-family: monospace;
+    border: 8px solid rgb(25, 25, 25);
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(120, 120, 120);
+}
+
+.dark {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(141, 182, 64);
+}
+
+.dark.a-top {
+    color: rgb(240, 245, 203);
+}
+
+.dark .a-top {
+    color: rgb(240, 245, 203);
+}
+
+.dark .a-bottom {
+    color: rgb(240, 245, 203);
+}
+
+.light {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(240, 245, 203);
+}
+
+.light.a-top {
+    color: rgb(141, 182, 64);
+}
+
+.light .a-bottom {
+    color: rgb(141, 182, 64);
+}
+
+.a-top {
+    vertical-align: top;
+}
+
+
+.a-bottom {
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+    text-align: right;
+    margin-top: -25px;
+}
+
+.pecas-xadrez {
+    max-width: 80px;
+    max-height: 80px;
+    height: 100%;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
